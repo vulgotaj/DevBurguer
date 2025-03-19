@@ -1,0 +1,23 @@
+{
+  "name": "devburguer",
+  "version": "1.0.0",
+  "description": "Projeto simples com HTML CSS Javascript e Tailwind. Apenas para aprendizado!",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vulgotaj/DevBurguer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vulgotaj/DevBurguer/issues"
+  },
+  "homepage": "https://github.com/vulgotaj/DevBurguer#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
