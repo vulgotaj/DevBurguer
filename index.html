@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/output.css";/>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -24,7 +26,7 @@
             </h1>
 
             <span class="text-white font-medium">
-                Rua dev 10, Campo Grande - MS
+                Rua Dev 07, Niterói - RJ
             </span>
 
             <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
@@ -49,13 +51,13 @@
             <div class="flex gap-2">
                 <img
                     src="./assets/hamb-1.png"
-                    alt="Hamburguer Smash"
+                    alt="HTML Smash"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
                 />
 
                 <div>
                     <p class="font-bold">
-                        Hamburguer Smash
+                        HTML Smash
                     </p>
                     <p class="text-sm">
                         Pão levinho de fermentação natural da Trigou, burguer 160g, queijo prato e maionese da casa.
@@ -67,10 +69,10 @@
                         </p>
                         <button 
                             class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                            data-name="Hamburguer Smash"
+                            data-name="HTML Smash"
                             data-price="18.90"
                         >
-                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                            <i class="fa fa-cart-plus text-lg text-white align-text-bottom"></i>
                         </button>
                     </div>
                 </div>
@@ -81,13 +83,13 @@
             <div class="flex gap-2">
                 <img
                     src="./assets/hamb-2.png"
-                    alt="Hamburguer Duplo"
+                    alt="Double CSS Burguer"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
                 />
 
                 <div>
                     <p class="font-bold">
-                        Hamburguer Duplo
+                        Double CSS Burguer
                     </p>
                     <p class="text-sm">
                         Pão levinho de fermentação natural da Trigou, burguer 160g, queijo prato e maionese da casa.
@@ -99,10 +101,10 @@
                         </p>
                         <button 
                             class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                            data-name="Hamburguer Duplo"
+                            data-name="Double CSS Burguer"
                             data-price="32.90"
                         >
-                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                            <i class="fa fa-cart-plus text-lg text-white align-text-bottom"></i>
                         </button>
                     </div>
                 </div>
@@ -113,13 +115,13 @@
             <div class="flex gap-2">
                 <img
                     src="./assets/hamb-3.png"
-                    alt="Hamburguer Salad"
+                    alt="React Salad"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
                 />
 
                 <div>
                     <p class="font-bold">
-                        Hamburguer Salad
+                        React Salad
                     </p>
                     <p class="text-sm">
                         Pão levinho de fermentação natural da Trigou, burguer 160g, queijo prato e maionese da casa.
@@ -131,10 +133,10 @@
                         </p>
                         <button 
                             class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                            data-name="Hamburguer Salad"
+                            data-name="React Salad"
                             data-price="35.90"
                         >
-                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                            <i class="fa fa-cart-plus text-lg text-white align-text-bottom"></i>
                         </button>
                     </div>
                 </div>
@@ -145,13 +147,13 @@
             <div class="flex gap-2">
                 <img
                     src="./assets/hamb-4.png"
-                    alt="Hamburguer da Casa"
+                    alt="Index Burguer"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
                 />
 
                 <div>
                     <p class="font-bold">
-                        Hamburguer da Casa
+                        Index Burguer
                     </p>
                     <p class="text-sm">
                         Pão levinho de fermentação natural da Trigou, burguer 160g, queijo prato e maionese da casa.
@@ -163,10 +165,10 @@
                         </p>
                         <button 
                             class="bg-gray-900 px-5 rounded add-to-cart-btn"
-                            data-name="Hamburguer da Casa"
+                            data-name="Index Burguer"
                             data-price="30"
                         >
-                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                            <i class="fa fa-cart-plus text-lg text-white align-text-bottom"></i>
                         </button>
                     </div>
                 </div>
@@ -205,7 +207,7 @@
                             data-name="Coca lata"
                             data-price="6"
                         >
-                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                            <i class="fa fa-cart-plus text-lg text-white align-text-bottom"></i>
                         </button>
                     </div>
                 </div>
@@ -234,7 +236,7 @@
                             data-name="Guaraná lata"
                             data-price="6"
                         >
-                            <i class="fa fa-cart-plus text-lg text-white"></i>
+                            <i class="fa fa-cart-plus text-lg text-white align-text-bottom"></i>
                         </button>
                     </div>
                 </div>
@@ -267,10 +269,10 @@
             <input
                 type="text"
                 placeholder="Digite seu endereço completo..."
-                id="adress"
+                id="address"
                 class="w-full border-2 p-1 rounded my-1"
             />
-            <p class="text-red-500 hidden" id="adress-warn">Digite seu endereço completo!</p>
+            <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
 
             <div class="flex items-center justify-between mt-5 w-full">
                 <button id="close-modal-btn">Fechar</button>
@@ -295,6 +297,7 @@
     <!-- FIM BUTTON CART FOOTER-->
 
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="script.js"></script>
 </body>
 </html>
